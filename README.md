@@ -16,7 +16,7 @@
 ### 1. Anomaly Detection in Network Traffic
 - **Description:** Developed an anomaly detection model to identify potential threats in network traffic. The model leverages unsupervised learning techniques to classify network events as normal or anomalous.
 - **Tools & Techniques:** Python, TensorFlow, Scikit-Learn
-- **Deployment:** [View Deployed Project](Your Streamlit URL)
+- **Deployment:** [View Deployed Project](https://networkintrusion.streamlit.app/)
 
 ### 2. Cryptocurrency Closing Price Prediction
 - **Description:** Created a model to predict the closing prices of cryptocurrencies using time-series data. The model incorporates features related to social media activity and trading attributes to improve prediction accuracy.
@@ -36,5 +36,5 @@
 ### 5. Yearly Returns Prediction for E-commerce Store
 - **Description:** Created a predictive model to estimate yearly returns for an e-commerce store. The model was designed to help the store optimize inventory and pricing strategies based on predicted returns.
 - **Tools & Techniques:** Python, LightGBM, Scikit-Learn
-- **Deployment:** [View Deployed Project](Your Streamlit URL)
+- **Deployment:** [View Deployed Project](https://commerce.streamlit.app/)
 
