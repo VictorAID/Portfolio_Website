@@ -28,12 +28,7 @@
 - **Tools & Techniques:** Python, TensorFlow, Keras, OpenCV
 - **Deployment:** [View Deployed Project](https://bananadiseaseprediction.streamlit.app/)
 
-### 4. Sentiment Analysis on Twitter Data
-- **Description:** Developed a sentiment analysis model to classify tweets into positive, negative, and neutral sentiments. The model was trained using a large dataset of labeled tweets and utilized natural language processing techniques.
-- **Tools & Techniques:** Python, NLTK, Scikit-Learn
-- **Deployment:** [View Deployed Project](Your Streamlit URL)
-
-### 5. Yearly Returns Prediction for E-commerce Store
+### 4. Yearly Returns Prediction for E-commerce Store
 - **Description:** Created a predictive model to estimate yearly returns for an e-commerce store. The model was designed to help the store optimize inventory and pricing strategies based on predicted returns.
 - **Tools & Techniques:** Python, LightGBM, Scikit-Learn
 - **Deployment:** [View Deployed Project](https://commerce.streamlit.app/)
