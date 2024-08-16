@@ -21,7 +21,7 @@
 ### 2. Cryptocurrency Closing Price Prediction
 - **Description:** Created a model to predict the closing prices of cryptocurrencies using time-series data. The model incorporates features related to social media activity and trading attributes to improve prediction accuracy.
 - **Tools & Techniques:** Python, Random Forest, Time-Series Analysis
-- **Deployment:** [View Deployed Project](Your Streamlit URL)
+- **Deployment:** [View Deployed Project](https://cryptocurrencyclosingpriceprediction.streamlit.app/)
 
 ### 3. Banana Disease Detection (Computer Vision)
 - **Description:** Built a computer vision model to detect and classify banana diseases. The model was trained using a dataset of banana leaf images and achieved high accuracy in identifying various diseases.
