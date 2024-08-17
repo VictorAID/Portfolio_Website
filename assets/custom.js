@@ -1,5 +1,4 @@
 // custom.js
-
 document.addEventListener('DOMContentLoaded', function() {
   const slides = document.querySelectorAll('.project-slider .slide');
   let currentSlide = 0;
