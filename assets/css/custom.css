@@ -11,6 +11,7 @@ a {
 }
 
 a:hover {
+    color: #ffcc00; /* Bright yellow on hover for better visibility */
     text-decoration: underline; /* Underline links on hover */
 }
 
@@ -65,11 +66,15 @@ header, footer {
 }
 
 .slide {
-    display: flex;
+    display: none; /* Hide all slides initially */
     flex-direction: column;
     align-items: center;
     padding: 20px;
     transition: transform 0.5s ease-in-out;
+}
+
+.slide.active {
+    display: block; /* Show only the active slide */
 }
 
 .slider-control {
@@ -88,6 +93,6 @@ header, footer {
     left: 10px;
 }
 
-.slider-control.next {
+slider-control.next {
     right: 10px;
 }
