@@ -1,18 +1,38 @@
 body {
     background-color: #003366; /* Dark blue background */
     color: white; /* White text for contrast */
-  }
-  
-  a {
+}
+
+a {
     color: #1e90ff; /* Bright blue links */
-  }
-  
-  header, footer {
+}
+
+header, footer {
     background-color: #002244; /* Slightly darker blue for header/footer */
-  }
-  
-  /* Remove unwanted footer text */
-  footer {
-    display: none; /* Hide footer if it contains unwanted text */
-  }
-  
+}
+
+/* Content and image side by side */
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Profile picture styling */
+.profile-picture img {
+    max-width: 150px; /* Adjust the size of the image */
+    height: auto;
+    border-radius: 50%; /* Make the image circular, if desired */
+    margin-right: 20px;
+}
+
+/* Profile content styling */
+.profile-content {
+    flex: 1;
+}
+
+/* Hide footer if it contains unwanted text */
+footer {
+    display: none; /* Hide footer if needed */
+}
