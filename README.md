@@ -6,11 +6,33 @@
 ## Education
 - B.Sc., Computer Science | University of Ilorin,Kwara State, Nigeria ( 2022)
 
-## Work Experience
-**Data Scientist | Machine Learning Engineer**  
-- Developed and deployed machine learning models for various applications, including anomaly detection, cryptocurrency price prediction, and computer vision.
-- Experienced in building and deploying models on cloud platforms like AWS and using tools like Streamlit for real-time web applications.
-- Proficient in Python, SQL, and machine learning frameworks, with a strong focus on practical implementations and delivering high-impact results.
+### **November 2019 - March 2022**  
+**Data Scientist**  
+**Ten Plus Digital Labs**
+
+- Led the development and implementation of a new CRM system, resulting in a 30% increase in customer retention.
+- Worked with cross-functional teams to ensure seamless integration of new features, reducing project delivery time by 25%.
+- Employed Azure DevOps to conduct regular code reviews, improving overall code quality by 20%.
+- Implemented Azure DevTest Labs to develop automated testing protocols, reducing bugs in production by 35%.
+- Used PowerBI to analyze user feedback to drive product improvements, leading to a 15% increase in user satisfaction.
+- Introduced AzureML to implement machine learning algorithms to personalize user experiences, boosting engagement metrics by 25%.
+- Deployed Azure Cost Management to manage vendor contracts and relationships, achieving a 15% cost savings on annual IT expenses.
+
+### **April 2022 - June 2023**  
+**Data Scientist**  
+**PLENO**
+
+- Implemented a machine learning model for the company, driving an 80% increase in efficiency and performance.
+- Employed Python and GCP to deploy the model, leveraging cloud-based resources for scalable and efficient machine-learning solutions.
+- Utilized SQL to collaborate with the team in refining the model, ensuring it met business objectives and improved operational processes through effective data management and analysis.
+
+### **July 2023 - September 2023**  
+**Data Science Consultant**  
+**Freelance**
+
+- Utilized SQL and AWS to provide tailored data science solutions to clients across diverse industries, driving a 100% increase in ROI through data-driven insights and predictive analytics.
+- Applied Python and PowerBI to empower individuals and organizations by offering hands-on workshops, courses, and coaching sessions to unlock the power of data.
+- Employed SQL, Python, and AzureML to develop customized data science solutions for clients across various industries, including finance, healthcare, retail, and technology.
 
 ## Projects
 ### 1. Anomaly Detection in Network Traffic
