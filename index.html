@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  {% include head.html %}
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bolade Victor</title>
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="profile-header">
     <div class="profile-picture">
-      <img src="{{ site.baseurl }}{{ site.logo }}" alt="Site Logo">
+      <img src="assets/Victor.jpg" alt="Site Logo">
     </div>
     <div class="profile-info">
-      <a href="https://www.linkedin.com/in/bolade-victor/" class="profile-link">LinkedIn</a>
-      <h1 class="profile-name">{{ site.title }}</h1>
+      <a href="https://www.linkedin.com/in/bolade-victor/" target="_blank" class="profile-link">LinkedIn</a>
+      <h1 class="profile-name">Bolade Victor</h1>
       <p class="profile-email">victorboladejamb17@gmail.com</p>
     </div>
   </header>
@@ -109,6 +114,7 @@
     <section id="projects">
       <h2>Projects</h2>
       <div class="project-slider">
+        <div class="slide-container">
         <!-- Slide 1 -->
         <div class="slide">
           <h3>Anomaly Detection in Network Traffic</h3>
@@ -133,18 +139,26 @@
           <p>Created a predictive model to estimate yearly returns for an e-commerce store. The model was designed to help the store optimize inventory and pricing strategies based on predicted returns.</p>
           <a href="https://commerce.streamlit.app/" target="_blank">View Deployed Project</a>
         </div>
+        </div>
         <!-- Navigation Controls -->
+         <div class="button-container">
         <button class="prev-slide slider-control">Previous</button>
         <button class="next-slide slider-control">Next</button>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    {% include footer.html %}
+  <a target="_blank" href="https://www.linkedin.com/in/bolade-victor/" class="profile-link">LinkedIn</a>
+  <a target="_blank" href="https://github.com/victoraid" class="profile-link">GitHub</a>
+  <a target="_blank" href="mailto:victorboladejamb17@gmail.com" class="profile-link">Gmail</a>
+
+<!-- <p>This project is maintained by VictorAID</p>
+<p>Hosted on GitHub Pages — Theme by ordered</p> -->
   </footer>
 
-  <script src="{{ site.baseurl }}/assets/custom.js"></script>
+  <script src="assets/custom.js"></script>
 </body>
 </html>
 
