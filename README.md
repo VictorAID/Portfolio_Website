@@ -6,9 +6,9 @@
 ## Education
 - B.Sc., Computer Science | University of Ilorin,Kwara State, Nigeria ( 2022)
 
-### **November 2019 - March 2022**  
+### **November 2019 - March 2022**
 **Data Scientist**  
-**Ten Plus Digital Labs**
+**ZeedLabs System**
 
 - Led the development and implementation of a new CRM system, resulting in a 30% increase in customer retention.
 - Worked with cross-functional teams to ensure seamless integration of new features, reducing project delivery time by 25%.
@@ -18,7 +18,20 @@
 - Introduced AzureML to implement machine learning algorithms to personalize user experiences, boosting engagement metrics by 25%.
 - Deployed Azure Cost Management to manage vendor contracts and relationships, achieving a 15% cost savings on annual IT expenses.
 
-### **April 2022 - June 2023**  
+### **April 2022 - June 2023**
+**Data Scientist**  
+**Ten Plus Digital Labs**
+
+- Utilised AWS to lead the Data Science team at TenPlus Digital Labs, driving a
+50% increase in project throughput through effective team management,
+resource allocation, and mentorship programs.
+- Leveraged AWS SageMaker to direct the development of machine learning-based products and solutions at TenPlus Digital Labs, driving a 60% increase in
+revenue from AI-driven products.
+- Applied PowerBI to develop and execute a comprehensive business intelligence
+strategy for TenPlus Digital Labs, resulting in a 75% increase in actionable
+insights derived from data analytics.
+
+### **July 2023 - September 2023**  
 **Data Scientist**  
 **PLENO**
 
@@ -26,7 +39,7 @@
 - Employed Python and GCP to deploy the model, leveraging cloud-based resources for scalable and efficient machine-learning solutions.
 - Utilized SQL to collaborate with the team in refining the model, ensuring it met business objectives and improved operational processes through effective data management and analysis.
 
-### **July 2023 - September 2023**  
+### **October 2023 - Present**  
 **Data Science Consultant**  
 **Freelance**
 
