@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function showSlide(index) {
     slides.forEach((slide, i) => {
-      slide.style.display = (i === index) ? 'block' : 'none';
+      slide.classList.toggle('active', i === index);
     });
   }
 
@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', function() {
   // Initialize the first slide
   showSlide(currentSlide);
 
-  // Optional: Add navigation controls if needed
+  // Add navigation controls
   document.querySelector('.next-slide').addEventListener('click', nextSlide);
   document.querySelector('.prev-slide').addEventListener('click', prevSlide);
 
-  // Optional: Auto-slide functionality
+  // Auto-slide functionality
   setInterval(nextSlide, 5000); // Change slide every 5 seconds
 });
