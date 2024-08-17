@@ -4,16 +4,18 @@
   {% include head.html %}
 </head>
 <body>
-  <header>
-    <h1>{{ site.title }}</h1>
-  </header>
-  <main class="content-wrapper">
+  <header class="profile-header">
     <div class="profile-picture">
       <img src="{{ site.baseurl }}{{ site.logo }}" alt="Site Logo">
     </div>
-    <div class="profile-content">
-      {{ content }}
+    <div class="profile-info">
+      <a href="https://www.linkedin.com/in/your-linkedin-profile" class="profile-link">LinkedIn</a>
+      <h1 class="profile-name">{{ site.title }}</h1>
+      <p class="profile-email">your.email@example.com</p>
     </div>
+  </header>
+  <main>
+    {{ content }}
   </main>
   <footer>
     {% include footer.html %}
