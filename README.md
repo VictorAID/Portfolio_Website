@@ -1,10 +1,9 @@
-
 # Data Scientist & Machine Learning Engineer
 
-#### Technical Skills: Python, SQL, AWS,GCP,Azure,FastAPI,PowerBI,Tableau,TensorFlow, PyTorch, Streamlit, Scikit-Learn, LightGBM,NLP,Deep Learning
+#### Technical Skills: Python, SQL, AWS, GCP, Azure, FastAPI, PowerBI, Tableau, TensorFlow, PyTorch, Streamlit, Scikit-Learn, LightGBM, NLP, Deep Learning
 
 ## Education
-- B.Sc., Computer Science | University of Ilorin,Kwara State, Nigeria ( 2022)
+- B.Sc., Computer Science | University of Ilorin, Kwara State, Nigeria (2022)
 
 ### **November 2019 - March 2022**
 **Data Scientist**  
@@ -22,14 +21,9 @@
 **Data Scientist**  
 **Ten Plus Digital Labs**
 
-- Utilised AWS to lead the Data Science team at TenPlus Digital Labs, driving a
-50% increase in project throughput through effective team management,
-resource allocation, and mentorship programs.
-- Leveraged AWS SageMaker to direct the development of machine learning-based products and solutions at TenPlus Digital Labs, driving a 60% increase in
-revenue from AI-driven products.
-- Applied PowerBI to develop and execute a comprehensive business intelligence
-strategy for TenPlus Digital Labs, resulting in a 75% increase in actionable
-insights derived from data analytics.
+- Utilised AWS to lead the Data Science team at TenPlus Digital Labs, driving a 50% increase in project throughput through effective team management, resource allocation, and mentorship programs.
+- Leveraged AWS SageMaker to direct the development of machine learning-based products and solutions at TenPlus Digital Labs, driving a 60% increase in revenue from AI-driven products.
+- Applied PowerBI to develop and execute a comprehensive business intelligence strategy for TenPlus Digital Labs, resulting in a 75% increase in actionable insights derived from data analytics.
 
 ### **July 2023 - September 2023**  
 **Data Scientist**  
@@ -67,4 +61,3 @@ insights derived from data analytics.
 - **Description:** Created a predictive model to estimate yearly returns for an e-commerce store. The model was designed to help the store optimize inventory and pricing strategies based on predicted returns.
 - **Tools & Techniques:** Python, LightGBM, Scikit-Learn
 - **Deployment:** [View Deployed Project](https://commerce.streamlit.app/)
-
