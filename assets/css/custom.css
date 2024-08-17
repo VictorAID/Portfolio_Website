@@ -11,7 +11,7 @@ header, footer {
     background-color: #002244; /* Slightly darker blue for header/footer */
 }
 
-/* Content and image side by side */
+/* Flexbox for image and content layout */
 .content-wrapper {
     display: flex;
     align-items: center;
@@ -19,20 +19,21 @@ header, footer {
     padding: 20px;
 }
 
-/* Profile picture styling */
+/* Image styling */
 .profile-picture img {
     max-width: 150px; /* Adjust the size of the image */
+    width: 100%;
     height: auto;
-    border-radius: 50%; /* Make the image circular, if desired */
+    border-radius: 50%; /* Optional: make the image circular */
     margin-right: 20px;
 }
 
-/* Profile content styling */
+/* Content styling */
 .profile-content {
     flex: 1;
 }
 
-/* Hide footer if it contains unwanted text */
+/* Hide footer */
 footer {
     display: none; /* Hide footer if needed */
 }
