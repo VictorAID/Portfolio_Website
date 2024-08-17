@@ -3,12 +3,26 @@
 ## Data Scientist & Machine Learning Engineer
 
 ### Technical Skills
-- **Programming Languages:** Python, SQL
-- **Cloud Platforms:** AWS, GCP, Azure
-- **Web Frameworks:** FastAPI
-- **Business Intelligence Tools:** PowerBI, Tableau
-- **Machine Learning Libraries:** TensorFlow, PyTorch, Scikit-Learn, LightGBM
-- **Other Technologies:** NLP, Deep Learning
+- **Programming Languages**
+  - Python
+  - SQL
+- **Cloud Platforms**
+  - AWS
+  - GCP
+  - Azure
+- **Web Frameworks**
+  - FastAPI
+- **Business Intelligence Tools**
+  - PowerBI
+  - Tableau
+- **Machine Learning Libraries**
+  - TensorFlow
+  - PyTorch
+  - Scikit-Learn
+  - LightGBM
+- **Other Technologies**
+  - NLP
+  - Deep Learning
 
 ## Education
 - **B.Sc., Computer Science**  
