@@ -27,12 +27,16 @@
   <main>
     <section id="education">
       <h2>Education</h2>
-      {{ content | markdownify | strip_html | remove: "Your education details go here." }}
+      <div class="content">
+        {{ site.data.education | markdownify }}
+      </div>
     </section>
 
     <section id="experience">
       <h2>Work Experience</h2>
-      {{ content | markdownify | strip_html | remove: "Your work experience details go here." }}
+      <div class="content">
+        {{ site.data.experience | markdownify }}
+      </div>
     </section>
 
     <section id="projects">
