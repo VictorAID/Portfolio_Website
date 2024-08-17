@@ -1,0 +1,18 @@
+body {
+    background-color: #003366; /* Dark blue background */
+    color: white; /* White text for contrast */
+  }
+  
+  a {
+    color: #1e90ff; /* Bright blue links */
+  }
+  
+  header, footer {
+    background-color: #002244; /* Slightly darker blue for header/footer */
+  }
+  
+  /* Remove unwanted footer text */
+  footer {
+    display: none; /* Hide footer if it contains unwanted text */
+  }
+  
