@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   {% include head.html %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
 </head>
 <body>
   <header class="profile-header">
@@ -9,16 +10,104 @@
       <img src="{{ site.baseurl }}{{ site.logo }}" alt="Site Logo">
     </div>
     <div class="profile-info">
-      <a href="https://www.linkedin.com/in/bolade-victor/" class="profile-link">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/your-linkedin-profile" class="profile-link">LinkedIn</a>
       <h1 class="profile-name">{{ site.title }}</h1>
-      <p class="profile-email">victorboladejamb17@gmail.com</p>
+      <p class="profile-email">your.email@example.com</p>
     </div>
   </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Work Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
   <main>
-    {{ content }}
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <p>B.Sc., Computer Science | University of Ilorin, Kwara State, Nigeria (2022)</p>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience">
+      <h2>Work Experience</h2>
+
+      <h3>November 2019 - March 2022</h3>
+      <p><strong>Data Scientist | ZeedLabs System</strong></p>
+      <ul>
+        <li>Led the development and implementation of a new CRM system, resulting in a 30% increase in customer retention.</li>
+        <li>Worked with cross-functional teams to ensure seamless integration of new features, reducing project delivery time by 25%.</li>
+        <li>Employed Azure DevOps to conduct regular code reviews, improving overall code quality by 20%.</li>
+        <li>Implemented Azure DevTest Labs to develop automated testing protocols, reducing bugs in production by 35%.</li>
+        <li>Used PowerBI to analyze user feedback to drive product improvements, leading to a 15% increase in user satisfaction.</li>
+        <li>Introduced AzureML to implement machine learning algorithms to personalize user experiences, boosting engagement metrics by 25%.</li>
+        <li>Deployed Azure Cost Management to manage vendor contracts and relationships, achieving a 15% cost savings on annual IT expenses.</li>
+      </ul>
+
+      <h3>April 2022 - June 2023</h3>
+      <p><strong>Data Scientist | Ten Plus Digital Labs</strong></p>
+      <ul>
+        <li>Utilised AWS to lead the Data Science team, driving a 50% increase in project throughput through effective team management, resource allocation, and mentorship programs.</li>
+        <li>Leveraged AWS SageMaker to direct the development of machine learning-based products and solutions, driving a 60% increase in revenue from AI-driven products.</li>
+        <li>Applied PowerBI to develop and execute a comprehensive business intelligence strategy, resulting in a 75% increase in actionable insights derived from data analytics.</li>
+      </ul>
+
+      <h3>July 2023 - September 2023</h3>
+      <p><strong>Data Scientist | PLENO</strong></p>
+      <ul>
+        <li>Implemented a machine learning model for the company, driving an 80% increase in efficiency and performance.</li>
+        <li>Employed Python and GCP to deploy the model, leveraging cloud-based resources for scalable and efficient machine-learning solutions.</li>
+        <li>Utilized SQL to collaborate with the team in refining the model, ensuring it met business objectives and improved operational processes through effective data management and analysis.</li>
+      </ul>
+
+      <h3>October 2023 - Present</h3>
+      <p><strong>Data Science Consultant | Freelance</strong></p>
+      <ul>
+        <li>Utilized SQL and AWS to provide tailored data science solutions to clients across diverse industries, driving a 100% increase in ROI through data-driven insights and predictive analytics.</li>
+        <li>Applied Python and PowerBI to empower individuals and organizations by offering hands-on workshops, courses, and coaching sessions to unlock the power of data.</li>
+        <li>Employed SQL, Python, and AzureML to develop customized data science solutions for clients across various industries, including finance, healthcare, retail, and technology.</li>
+      </ul>
+    </section>
+
+    <!-- Projects Section with Sliders -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-slider">
+        <div class="slide">
+          <h3>Anomaly Detection in Network Traffic</h3>
+          <p><strong>Description:</strong> Developed an anomaly detection model to identify potential threats in network traffic. The model leverages unsupervised learning techniques to classify network events as normal or anomalous.</p>
+          <p><strong>Tools & Techniques:</strong> Python, TensorFlow, Scikit-Learn</p>
+          <p><strong>Deployment:</strong> <a href="https://networkintrusion.streamlit.app/">View Deployed Project</a></p>
+        </div>
+        <div class="slide">
+          <h3>Cryptocurrency Closing Price Prediction</h3>
+          <p><strong>Description:</strong> Created a model to predict the closing prices of cryptocurrencies using time-series data. The model incorporates features related to social media activity and trading attributes to improve prediction accuracy.</p>
+          <p><strong>Tools & Techniques:</strong> Python, Random Forest, Time-Series Analysis</p>
+          <p><strong>Deployment:</strong> <a href="https://cryptocurrencyclosingpriceprediction.streamlit.app/">View Deployed Project</a></p>
+        </div>
+        <div class="slide">
+          <h3>Banana Disease Detection (Computer Vision)</h3>
+          <p><strong>Description:</strong> Built a computer vision model to detect and classify banana diseases. The model was trained using a dataset of banana leaf images and achieved high accuracy in identifying various diseases.</p>
+          <p><strong>Tools & Techniques:</strong> Python, TensorFlow, Keras, OpenCV</p>
+          <p><strong>Deployment:</strong> <a href="https://bananadiseaseprediction.streamlit.app/">View Deployed Project</a></p>
+        </div>
+        <div class="slide">
+          <h3>Yearly Returns Prediction for E-commerce Store</h3>
+          <p><strong>Description:</strong> Created a predictive model to estimate yearly returns for an e-commerce store. The model was designed to help the store optimize inventory and pricing strategies based on predicted returns.</p>
+          <p><strong>Tools & Techniques:</strong> Python, LightGBM, Scikit-Learn</p>
+          <p><strong>Deployment:</strong> <a href="https://commerce.streamlit.app/">View Deployed Project</a></p>
+        </div>
+      </div>
+    </section>
   </main>
+
   <footer>
     {% include footer.html %}
   </footer>
+
+  <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
 </body>
 </html>
