@@ -11,44 +11,42 @@ a {
 }
 
 a:hover {
-    color: #ffcc00; /* Bright yellow on hover for better visibility */
-    text-decoration: underline; /* Underline links on hover */
-}
-
-header, footer {
-    background-color: #002244; /* Slightly darker blue for header/footer */
+    color: #ffcc00; /* Yellow color on hover */
+    text-decoration: underline; /* Add underline on hover */
 }
 
 .profile-header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 20px;
-    border-bottom: 2px solid #1e90ff; /* Blue border under header */
+    background-color: #002244; /* Darker blue */
 }
 
-.profile-picture img {
-    width: 150px; /* Adjust as needed */
-    height: auto;
+.profile-header .profile-info {
+    flex: 1;
+    text-align: right;
+}
+
+.profile-header .profile-picture img {
     border-radius: 50%;
-    margin-right: 20px;
-}
-
-.profile-info {
-    display: flex;
-    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .navbar {
-    background-color: #002244; /* Same color as header/footer */
+    display: flex;
+    justify-content: center;
     padding: 10px;
+    background-color: #004488; /* Another shade of blue */
 }
 
 .navbar ul {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: center;
 }
 
 .navbar li {
@@ -56,43 +54,40 @@ header, footer {
 }
 
 .navbar a {
-    color: #1e90ff;
-    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .project-slider {
-    position: relative;
-    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
 }
 
-.slide {
-    display: none; /* Hide all slides initially */
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    transition: transform 0.5s ease-in-out;
-}
-
-.slide.active {
-    display: block; /* Show only the active slide */
+.project-slider .slide {
+    min-width: 300px;
+    margin-right: 20px;
+    background-color: #0055aa;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .slider-control {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
+    background-color: #ffcc00;
     border: none;
-    color: white;
     padding: 10px;
     cursor: pointer;
-    z-index: 10;
 }
 
-.slider-control.prev {
-    left: 10px;
+.slider-control:hover {
+    background-color: #ffa500;
 }
 
-slider-control.next {
-    right: 10px;
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #002244;
 }
